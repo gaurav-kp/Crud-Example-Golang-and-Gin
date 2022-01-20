@@ -1,0 +1,46 @@
+
+###
+POST  http://localhost:8080/create_product
+content-type: application/json
+
+{
+    "Code": "PRD-001",
+    "Price": 51,
+    "Brand": "Apple",
+    "Description": "iPhone X"
+}
+
+
+###
+PUT http://localhost:8080/update_product
+content-type: application/json
+
+{
+    "ID": 5,
+    "Code": "PRD-005",
+    "Price": 51,
+    "Brand": "Apple",
+    "Description": "iPhone X"
+}
+
+
+###
+DELETE  http://localhost:8080/delete_product?id=4
+content-type: application/json
+
+
+
+###
+GET http://localhost:8080/get_products
+content-type: application/json
+
+
+###
+GET http://localhost:8080/get_product?id=4
+content-type: application/json
+
+
+
+
+
+
