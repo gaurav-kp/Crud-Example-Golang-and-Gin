@@ -10,8 +10,6 @@ import (
 
 func main() {
 
-	println("env_mysql_pwd", os.Getenv("env_mysql_pwd"))
-
 	r := gin.Default()
 
 	//set api routes
